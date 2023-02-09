@@ -232,11 +232,10 @@ margin-top: 8px;
 }
 
 .social-list-icon {
-   fill: var(--hero-text-color);
+fill: var(--hero-text-color);
 }
 
 .social-list-link {
-text-decoration: none;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -244,15 +243,13 @@ width: 40px;
 height: 40px;
 border-radius: 50%;
 background-color: var(--logo-web-color);
-сolor: var(--hero-text-color);
+color: var(--hero-text-color);
 }
 
 .social-list-link:hover,
 .social-list-link:active {
    background-color: var(--button-acent-color);
 }
-
-
 
 .section-title {
 font-size: 36px;
@@ -450,7 +447,7 @@ background-color: var(--success-color);
 }
 
 .footer-social-icon {
-   fill: var(--hero-text-color);
+fill: var(--hero-text-color);
 }
 
 .container {
