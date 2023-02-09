@@ -231,7 +231,12 @@ gap: 24px;
 margin-top: 8px;
 }
 
+.social-list-icon {
+   fill: var(--hero-text-color);
+}
+
 .social-list-link {
+text-decoration: none;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -239,6 +244,7 @@ width: 40px;
 height: 40px;
 border-radius: 50%;
 background-color: var(--logo-web-color);
+сolor: var(--hero-text-color);
 }
 
 .social-list-link:hover,
@@ -246,9 +252,7 @@ background-color: var(--logo-web-color);
    background-color: var(--button-acent-color);
 }
 
-.social-list-icon {
-   fill: var(--hero-text-color);
-}
+
 
 .section-title {
 font-size: 36px;
@@ -437,6 +441,7 @@ width: 40px;
 height: 40px;
 border-radius: 50%;
 background-color: rgba(255, 255, 255, 0.1);
+color: var(--hero-text-color);
 }
 
 .footer-social-link:hover,
@@ -459,5 +464,6 @@ width: 1158px;
 .header {
    border-bottom: 1px solid var(--filter-butto-border-color);
 }
+
 
 
