@@ -246,6 +246,10 @@ background-color: var(--logo-web-color);
    background-color: var(--button-acent-color);
 }
 
+.social-list-icon {
+   fill: var(--hero-text-color);
+}
+
 .section-title {
 font-size: 36px;
 line-height: 1.1;
